@@ -1,0 +1,70 @@
+@media(max-width: 1200px){
+    body{
+        background-color: rgb(24, 23, 24)
+    };
+
+    .fundo-video{
+        display: none;
+    }
+
+    .conteiner{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+
+    }
+    .conteiner .mario{
+        max-width: 50%;
+    }
+
+    .conteiner .informacaoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .conteiner .descricao{
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .conteiner .botao-trailer{
+        background-color: #211c1c;
+    }
+
+}
+
+@media(max-width : 500px){
+
+    .cabecalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .conteiner .imagem-titulo{
+        max-width: 75%;
+    }
+
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+        width: 300px;
+        height: 169px;
+    }
+
+
+}
+
+@media( max-width : 375px){
+    .modal #video{
+        width: 250px;
+        height: 140px;
+    }
+}
